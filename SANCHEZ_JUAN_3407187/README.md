@@ -26,7 +26,7 @@ El desarrollo fue realizado utilizando exclusivamente características de *JavaS
 1. Abrir index.html en el navegador
 
 ## 📸 Screenshots
-Aqui una demostracion del tema oscuro ye l tema claro de la pagina
+Aqui una demostracion del tema oscuro y el tema claro de la pagina
 
 - Light theme:
 
