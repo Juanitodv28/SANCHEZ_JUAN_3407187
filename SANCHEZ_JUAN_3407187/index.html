@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGENCY TRAVEL HUB — Ficha Interactiva</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+
+    <!-- Business Card / Agency Card -->
+    <div class="card" id="businessCard">
+      <!-- Header Section -->
+      <div class="card-header">
+        <div class="avatar">
+          <img src="https://source.unsplash.com/featured/?travel,agency" alt="Agency Logo" id="avatarImg">
+        </div>
+        <div class="header-info">
+          <h1 id="entity-name">Cargando...</h1>
+          <p class="code" id="entity-code">--</p>
+          <p class="location" id="entity-location">📍 Oficina Central</p>
+        </div>
+      </div>
+
+      <!-- Description Section -->
+      <div class="card-section">
+        <h2>Descripción</h2>
+        <p id="entity-description">Cargando...</p>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="card-section">
+        <h2>Contacto</h2>
+        <div id="entity-contact" class="contact-info">
+          <!-- Rellenado por script.js -->
+        </div>
+        <div class="contact-actions">
+          <button id="copy-btn" class="btn">Copiar información</button>
+        </div>
+      </div>
+
+      <!-- Services / Items Section -->
+      <div class="card-section">
+        <h2>Servicios</h2>
+        <div id="items-list" class="items-list">Cargando...</div>
+        <button id="toggle-items" class="btn btn-secondary">Mostrar más</button>
+      </div>
+
+      <!-- Links / Socials -->
+      <div class="card-section">
+        <h2>Enlaces</h2>
+        <div id="links" class="links">Cargando...</div>
+      </div>
+
+      <!-- Statistics Section -->
+      <div class="card-section">
+        <h2>Estadísticas</h2>
+        <div id="stats" class="stats-grid">Cargando...</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Built with ❤️ using ES2023 JavaScript</p>
+      <p class="small">Week 01 Project - JavaScript Modern Bootcamp</p>
+    </footer>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">
+    <span id="toast-message"></span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
