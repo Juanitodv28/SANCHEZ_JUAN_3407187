@@ -29,6 +29,40 @@ Desarrollarás una aplicación web que permita gestionar entidades de tu dominio
 
 ---
 
+## ✅ Implementación actual (resumen)
+
+- **Dominio:** Sistema de gestión de agencias de viajes (paquetes y reservas).
+- **Clases implementadas:** `TravelPackage` (base), `BeachPackage`, `MountainPackage`, `CityPackage`.
+- **Usuarios:** `Person` base, roles `Agent` y `Client`.
+- **Sistema:** `MainSystem` con métodos CRUD para paquetes y usuarios, búsqueda por nombre, filtros por tipo/estado y estadísticas básicas.
+- **Interfaz:** `index.html` adaptado a paquetes/usuarios/reservas; formularios y modales funcionales; renderizado dinámico con `starter/script.js`.
+- **Estilos:** `styles.css` actualizado para usar la paleta de Week_01/Week_02; tema por defecto en **dark mode** y override `data-theme="light"` para modo claro.
+
+## ▶️ Cómo ejecutar (rápido)
+
+1. Abrir `Week_03/index.html` en el navegador.
+2. En la pestaña **Paquetes**: usar `+ Agregar` para abrir el modal y crear paquetes (tipo, destino, precio, duración, plazas).
+3. En **Usuarios**: agregar agentes o clientes desde `+ Agregar Usuario`.
+4. Usar filtros y búsqueda para encontrar paquetes o usuarios; los botones de cada tarjeta permiten activar/desactivar o eliminar paquetes.
+
+## 🌓 Tema claro/oscuro
+
+- Por defecto la aplicación carga en **modo oscuro**. Para forzar modo claro añade el atributo `data-theme="light"` al elemento `<html>` o `<body>`. Ejemplo:
+
+```html
+<html data-theme="light"> <!-- usa tema claro -->
+  ...
+</html>
+```
+
+Si quieres, puedo añadir un botón de alternancia que guarde la preferencia en `localStorage`.
+
+## ℹ️ Notas / Pendientes
+
+- Persistencia: por ahora no hay `localStorage` persistente (puedo añadirlo si lo deseas).
+- Transacciones/Reservas: la sección de reservas está preparada en la UI; la lógica avanzada de reservas no está implementada por completo.
+
+
 ## 🏗️ Arquitectura de Clases (Genérica)
 
 Debes adaptar esta estructura a tu dominio:
