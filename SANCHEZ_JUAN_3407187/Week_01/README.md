@@ -1,47 +1,32 @@
-# 69 - Sistema de gestion de agencias de viajes - Juan Pablo Sanchez Baquero
+# 69 - Sistema de Gestión de Agencias de Viajes - Juan Pablo Sanchez Baquero
 
 ## 📋 Información
 - **Nombre**: Juan Pablo Sanchez Baquero
-- **Fecha**: 12/02/2026
-- **Dominio Asignado**: Sistema de gestion de agencias de viajes
-- **Entidad Principal**: Turismo y Hospitalidad
+- **Fecha**: 14/03/2026
+- **Dominio Asignado**: Sistema de Gestión de Agencias de Viajes
+- **Entidad Principal**: Servicio turístico (Flight Booking)
 
 ## 🎯 Descripción
-Esta ficha interactiva representa un *Sistema de Gestión de Agencias de Viajes*, enfocado en el sector de turismo y hospitalidad.
+Script de consola que muestra una ficha de presentación del dominio asignado. Representa el servicio principal de una agencia de viajes llamada *Agency Travel Hub*, mostrando su información general, detalles numéricos y un resumen del sistema.
 
-La aplicación muestra información general del sistema, servicios principales (como gestión de reservas, administración de clientes y paquetes turísticos), estadísticas operativas y enlaces externos relevantes.
-
-El desarrollo fue realizado utilizando exclusivamente características de *JavaScript ES2023*, aplicando buenas prácticas como el uso de const/let, arrow functions, template literals y destructuring para mantener un código limpio y moderno.
-
-
-## 📚 Conceptos ES2023 Aplicados
-- [x] Variables con let/const
-- [x] Template literals
-- [x] Arrow functions
-- [x] Destructuring
-- [x] Optional chaining (?.)
-- [x] Nullish coalescing (??)
+## 📚 Conceptos Aplicados
+- [x] console.log()
+- [x] Strings
+- [x] Numbers
+- [x] Booleans
+- [x] Expresión aritmética (precio con descuento)
+- [x] Comentarios en español
 
 ## 🚀 Cómo Ejecutar
-1. Abrir index.html en el navegador
-
-## 📸 Screenshots
-Aqui una demostracion del tema oscuro y el tema claro de la pagina
-
-- Light theme:
-
-	![Light theme](screenshots/light-theme.png)
-
-- Dark theme:
-
-	![Dark theme](screenshots/dark-theme.png)
-
+```
+node script.js
+```
 
 ## 🎯 Autoevaluación
-- Funcionalidad: 85%
-- Código ES2023: 98%
-- Código Limpio: 88%
-- Adaptación al Dominio: 90%
-- **Total Estimado**: 90%
-
-
+- El script corre sin errores: 100%
+- Muestra los 7 datos requeridos: 100%
+- Comentarios en español: 100%
+- Salida organizada y legible: 95%
+- Uso de string, number y boolean: 100%
+- Adaptación al dominio: 90%
+- **Total Estimado**: 97%
