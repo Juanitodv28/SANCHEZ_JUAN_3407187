@@ -2,7 +2,7 @@
 
 ## 📋 Información
 - **Nombre**: Juan Pablo Sanchez Baquero
-- **Fecha**: 14/03/2026
+- **Fecha**: 11/03/2026
 - **Dominio Asignado**: Sistema de Gestión de Agencias de Viajes
 - **Entidad Principal**: Servicio turístico (Flight Booking)
 
